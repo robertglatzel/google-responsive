@@ -1,0 +1,142 @@
+/* Body */
+body{
+	background-color: #AEAEAE;
+	margin: 0;
+}
+
+/*Site Wrapper which wraps the whole content of the page in the DIV */
+.wrapper {
+	margin: 0 auto; /* Makes sure content is centered */
+	width: 80%;
+}
+/* Site Header */
+.header {
+	background-color: #E7E5E6;
+	padding: 30px;
+}
+
+.header .logo {
+	background-color: #AEAEAE;
+	display: inline-block;
+	font-size: 48px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+
+/*Site navigation */
+.navigation {
+	background-color: #A5A3A4;
+}
+
+.navigation ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 15px 25px;
+}
+
+.navigation a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* Main Div */
+.main {
+	background-color: #F3EFF0;
+	float: left;
+	height: 600px;
+	width: 70%;
+}
+
+.main h1 {
+	padding-left: 35px;
+}
+
+.main p {
+	padding: 5px 35px;
+}
+
+/* Sidebar Div */
+.sidebar {
+	background-color: #CECCCD;
+	float: left;
+	height: 600px;
+	width: 30%;
+}
+
+.sidebar h2 {
+	padding-left: 20px;
+}
+
+/*Site Footer */
+.footer {
+	clear: both;
+	background-color: #514F50;
+	font-size: 14px;
+	padding: 9px 0;
+}
+
+.footer p {
+	margin: 0;
+	color: #FFFFFF;
+	padding-left: 35px;
+}
+	/*MEDIA  */
+@media (max-width: 1253px) {
+	.main {
+		overflow: scroll;
+	}
+}
+
+
+@media (max-width: 687px)  {
+	.navigation li {
+		padding: 15px .6%;
+		margin: 1%;
+	}
+
+	.sidebar ul {
+		margin: 0;
+		overflow: scroll;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.navigation {
+		text-align: center;
+	}
+	.navigation li {
+		padding: 15px 0;
+
+	}
+
+	.sidebar ul {
+		padding: 15px 2px;
+	}
+
+	.sidebar li {
+		padding-top: 4px;
+	}
+
+	.sidebar h2{
+		font-size: 26px;
+		padding: 0;
+	}
+
+	.wrapper {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
