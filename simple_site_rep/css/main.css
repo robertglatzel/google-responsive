@@ -111,8 +111,12 @@ body{
 		text-align: center;
 	}
 	.navigation li {
-		padding: 15px 0;
+		padding: 15px 1px;
 
+	}
+
+	.main {
+		background: pink;
 	}
 
 	.sidebar ul {
@@ -125,7 +129,7 @@ body{
 
 	.sidebar h2{
 		font-size: 26px;
-		padding: 0;
+		padding-left: 15px;
 	}
 
 	.wrapper {
